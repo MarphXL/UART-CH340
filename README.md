@@ -58,7 +58,7 @@ DCD | Data Carrier Detected | Mit einem High-Pegel an diesem Eingang signalisier
 * unknown [snapshot Version 2C](datasheet/CH340_version_2C.PDF)
 * 11.03.2019 chinese [snapshot Version 2G](datasheet/Jiangsu-Qin-Heng-CH340C_C84681.pdf)
 ### PCB
-[SparkFun Serial Basic Breakout - CH340C and USB-C](https://github.com/sparkfun/Serial_Basic_Breakout-CH340C)
+[SparkFun Serial Basic Breakout - CH340C and USB-C](https://github.com/sparkfun/Serial_Basic_Breakout-CH340C) released under the Creative Commons Attribution Share-Alike 4.0 license; designed by [N. Seidle](https://github.com/nseidle) @nseidle
 ## Software
 ## 3D
 
