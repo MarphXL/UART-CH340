@@ -17,19 +17,23 @@
 bla
 
 ### Leitungen
+###### Standard für Arduinos
+PIN | Name | Beschreibung | TYP
+------------ | ------------- | ------------- | -------------
+RX | Receive Data | Leitung für eingehende (von DTE zu empfangende) Daten (negative Logik) | I
+TX | Transmit Data | Leitung für ausgehende (von DTE gesendete) Daten ([negative Logik](https://de.wikipedia.org/wiki/Negative_Logik)) | O
+DTR | Data Terminal Ready | Mit einem High-Pegel an diesem Ausgang signalisiert DTE seine Betriebsbereitschaft an die Gegenstelle. Damit kann die Gegenstelle, z. B. ein Modem, aktiviert oder auch zurückgesetzt werden. Üblicherweise antwortet die Gegenstelle mit einem High-Pegel auf DSR | O
+
+###### Weitere für RS-232
 PIN | Name | Beschreibung | TYP
 ------------ | ------------- | ------------- | -------------
 CTS | Clear to Send | Hardware-Handshake, „Sendeerlaubnis“; Ein High-Pegel an diesem Eingang ist ein Signal der Gegenstelle, dass sie Daten von DTE entgegennehmen kann | I
 RTS | Request to Send | Hardware-Handshake, „Sendeanforderung“; ein High-Pegel an diesem Ausgang signalisiert, dass DTE Daten senden möchte | O
-RTR (n.v.) | Request to Receive | „Empfangsstatus“; ein High-Pegel an diesem Ausgang signalisiert der Gegenstelle, dass DTE bereit ist, Daten zu empfangen | I
+RTR (n.v.) | Request to Receive | „Empfangsstatus“; ein High-Pegel an diesem Ausgang signalisiert der Gegenstelle, dass DTE bereit ist, Daten zu empfangen | O
 DSR | Data Set Ready | Ein High-Pegel an diesem Eingang ist ein Signal der Gegenstelle, dass sie im Prinzip einsatzbereit ist (aber nicht notwendigerweise auch empfangsbereit, siehe CTS) | I
 RI | Ring Indicator | Ein High-Pegel an diesem Eingang signalisiert dem DTE-Gerät, dass ein Anruf ankommt, d. h., dass jemand eine Datenverbindung aufbauen will („ring“ ist engl. für „klingeln“; besonders bei Telefonen und im übertragenen Sinne auch bei Modems). Siehe auch [Rufspannung](https://de.wikipedia.org/wiki/Rufspannung). | I
 DCD | Data Carrier Detected | Mit einem High-Pegel an diesem Eingang signalisiert die Gegenstelle, dass sie einlaufende Daten auf der Leitung erkennt (dem Namen nach ist das die [Modulationsträger](https://de.wikipedia.org/wiki/Tr%C3%A4ger_(Nachrichtentechnik)-Erkennung) und an DTE weitergeben möchte | I
-DTR | Data Terminal Ready | Mit einem High-Pegel an diesem Ausgang signalisiert DTE seine Betriebsbereitschaft an die Gegenstelle. Damit kann die Gegenstelle, z. B. ein Modem, aktiviert oder auch zurückgesetzt werden. Üblicherweise antwortet die Gegenstelle mit einem High-Pegel auf DSR | O
-RX | Receive Data | Leitung für eingehende (von DTE zu empfangende) Daten (negative Logik) | I
-TX | Transmit Data | Leitung für ausgehende (von DTE gesendete) Daten ([negative Logik](https://de.wikipedia.org/wiki/Negative_Logik)) | O
-GND | Ground | Signalmasse | -
-5V | Power | Eingangsspannung | +
+
 
 ## Hardware
 ### Technische Daten
