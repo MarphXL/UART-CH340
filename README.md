@@ -1,16 +1,16 @@
 # Vorlage
 ## Inhaltsverzeichnis
 1. [x] [Inhaltsverzeichnis](#Inhaltsverzeichnis)
-1. [ ] [Beschreibung](#Beschreibung)
-   1. [ ] [Leitungen](#Leitungen)
+1. [X] [Beschreibung](#Beschreibung)
+   1. [X] [Leitungen](#Leitungen)
 1. [ ] [Hardware](#Hardware)
-   1. [ ] [Technische Daten](#technische-daten)
-   1. [ ] [Datasheet](#datasheet)
+   1. [X] [Technische Daten](#technische-daten)
+   1. [X] [Datasheet](#datasheet)
    1. [ ] [PCB](#PCB)
 1. [ ] [Software](#Software)
 1. [ ] [3D](#3D)
-1. [ ] [Where to buy](#Where-to-buy)
-1. [ ] [Abbildungen](#Abbildungen)
+1. [X] [Where to buy](#Where-to-buy)
+1. [X] [Abbildungen](#Abbildungen)
 1. [x] [Credits](#Credits)
 
 ## Beschreibung
