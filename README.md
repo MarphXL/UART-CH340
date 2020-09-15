@@ -45,13 +45,12 @@ DCD | Data Carrier Detected | Mit einem High-Pegel an diesem Eingang signalisier
 
 ## Hardware
 ### Technische Daten
-* Modell:Multiplexer/Demultiplexer
-* Typ:74HC 4067
-* Temperaturbereich:-40 ... +85 °C
-* Versorgungsspannung:2,0 ... 10,0 VDC
-* Leistung:500 mW
+* Modell: Transceiver USB 2.0 2Mbps
+* Typ: WCN CH340C
+* Temperaturbereich: ?
+* Versorgungsspannung: 3.3 V, 5 V
 * LCSC Part #: [C84681](https://lcsc.com/product-detail/USB_CH340C_C84681.html/?href=jlc-SMT)
-* EAN / GTIN: 9900001079047
+* EAN / GTIN: ?
 
 ### Datasheet
 * [TI.com datasheet](https://www.ti.com/lit/ds/symlink/cd74hc4067.pdf)
@@ -59,11 +58,13 @@ DCD | Data Carrier Detected | Mit einem High-Pegel an diesem Eingang signalisier
 * unknown [snapshot Version 2C](datasheet/CH340_version_2C.PDF)
 * 11.03.2019 chinese [snapshot Version 2G](datasheet/Jiangsu-Qin-Heng-CH340C_C84681.pdf)
 ### PCB
+[SparkFun Serial Basic Breakout - CH340C and USB-C](https://github.com/sparkfun/Serial_Basic_Breakout-CH340C)
 ## Software
 ## 3D
 
 ## Where to buy
 ~ 4 EUR for 10pcs: [AliExpress](https://www.aliexpress.com/wholesale?trafficChannel=main&d=y&CatId=0&SearchText=10pcs+ch340c&ltype=wholesale&SortType=default&maxPrice=2.6&page=1)
+[SparkFun Serial Basic Breakout - CH340C and USB-C](https://www.sparkfun.com/products/15096)
 
 ## Abbildungen
 ![SOP-16 Chip](images/CH340C.jpg)
