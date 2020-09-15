@@ -14,7 +14,15 @@
 1. [x] [Credits](#Credits)
 
 ## Beschreibung
-bla
+IC zur Umwandlung von seriellen Signalen zu USB. 
+* Kompatibel mit 5V- und 3,3V-Systemen. 
+* 2.0 Full-speed device
+* Geschwindigkeit 50bps .. 2Mbps
+* integrierter 12MHz crystal, kein externer benötigt
+* USB-Vendor-class
+
+http://www.wch-ic.com/products/CH340.html
+http://www.wch-ic.com/search?q=CH340&t=downloads
 
 ### Leitungen
 ###### Standard für Arduinos
