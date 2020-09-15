@@ -50,22 +50,23 @@ DCD | Data Carrier Detected | Mit einem High-Pegel an diesem Eingang signalisier
 * Temperaturbereich:-40 ... +85 °C
 * Versorgungsspannung:2,0 ... 10,0 VDC
 * Leistung:500 mW
-* LCSC Part #: C6525 / C424181 / [C98457](https://lcsc.com/product-detail/Analog-Switches_TI_CD74HC4067SM96_CD74HC4067SM96_C98457.html/?href=jlc-SMT)
+* LCSC Part #: [C84681](https://lcsc.com/product-detail/USB_CH340C_C84681.html/?href=jlc-SMT)
 * EAN / GTIN: 9900001079047
 
 ### Datasheet
 * [TI.com datasheet](https://www.ti.com/lit/ds/symlink/cd74hc4067.pdf)
-* [snapshot](datasheet/xyz.pdf)
+* 04.11.2008 [snapshot Version 1D](datasheet/CH340_version_1D.PDF)
+* unknown [snapshot Version 2C](datasheet/CH340_version_2C.PDF)
+* 11.03.2019 chinese [snapshot Version 2G](datasheet/Jiangsu-Qin-Heng-CH340C_C84681.pdf)
 ### PCB
 ## Software
 ## 3D
 
 ## Where to buy
-~ 6 EUR for 10pcs: [AliExpress](https://www.aliexpress.com/item/32821800330.html)
+~ 4 EUR for 10pcs: [AliExpress](https://www.aliexpress.com/wholesale?trafficChannel=main&d=y&CatId=0&SearchText=10pcs+ch340c&ltype=wholesale&SortType=default&maxPrice=2.6&page=1)
 
 ## Abbildungen
-![Front](images/front.png)
-![Back](images/back.png)
+![SOP-16 Chip](images/CH340C.jpg)
 
 ## Credits
 * :+1: [arduino](https://github.com/arduino)
