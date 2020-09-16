@@ -1,4 +1,4 @@
-# Vorlage
+# CH340C
 ## Inhaltsverzeichnis
 1. [x] [Inhaltsverzeichnis](#Inhaltsverzeichnis)
 1. [X] [Beschreibung](#Beschreibung)
@@ -21,8 +21,8 @@ IC zur Umwandlung von seriellen Signalen zu USB.
 * integrierter 12MHz crystal, kein externer benötigt
 * USB-Vendor-class
 
-http://www.wch-ic.com/products/CH340.html
-http://www.wch-ic.com/search?q=CH340&t=downloads
+* [Infoseite des Herstellers](http://www.wch-ic.com/products/CH340.html)
+* [Downloadseite des Herstellers](http://www.wch-ic.com/search?q=CH340&t=downloads)
 
 ### Leitungen
 ###### Standard für Arduinos
